@@ -2,7 +2,7 @@
   "name": "my-tracker.danniel.dev",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
     "dev": "node --watch api/index.js",
     "start": "node api/index.js",
@@ -42,7 +42,6 @@
     "sequelize": "^6.37.5"
   },
   "author": "Danniel Navas",
-  "license": "ISC",
-  "packageManager": "pnpm@10.12.4",
+  "license": "MIT",
   "type": "module"
 }
